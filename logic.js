@@ -5,7 +5,6 @@ const app = express()
 app.set("view engine", "ejs")
 app.set("views", __dirname + "/views")
 const port = 3000
-const api=`d2074fd6037a4f22a73125305252507`
 app.use(express.urlencoded({ extended: true }))
 app.get('/', function abcd(req,res){
     res.render("index.ejs")
